@@ -1,0 +1,445 @@
+/*//----------Base styles----------//*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;700;900&family=PT+Sans+Caption:wght@700&family=Prompt:wght@100&display=swap');
+
+html {
+	scroll-behavior: smooth;
+  }
+  
+  body{
+	  margin: 0;
+	  padding: 0;
+  }
+
+
+#upcol{
+color: red;
+display: flex;
+background-color: #f6f6f6;
+margin-left: 8px;
+padding: 15px 0px 15px 0px;
+}
+
+
+#nav-text{
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: #333333;
+	font: 5px;
+}
+
+#nav-text2{
+	font-family: arial;
+	color: #3c3c3c;
+	font: 18px;
+}
+.new-in-nav{
+	background-color: green;
+	color: white;
+	padding: 10px;
+}
+#row2{
+	margin-left: 10px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* body{
+	background-image: url("porter-raab-Ucr4Yp-t364-unsplash.png");
+	background-size: cover;
+	background-attachment: scroll;
+} */
+
+.card{
+	display: flex;
+	justify-content: space-evenly;
+	text-align: justify;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	border: 1px solid transparent;
+	
+}
+.card-group1{
+	display: flex;
+	justify-content: space-evenly;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.card-group2{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+
+}
+
+.card-group3 {
+	display: flex;
+	justify-content: space-evenly;
+	text-align: justify;
+	align-items: center;
+	margin-top: 30px;
+	margin-bottom: 30px;
+		
+}
+
+.group4{
+	display: flex;
+	justify-content: space-evenly;
+}
+
+
+
+a{
+	color: white;
+}
+
+.programmes-offered{
+	background-color: #f6f6f6;
+	word-spacing: 0.90rem;
+}
+.text3{
+	color: grey;
+	font-size: 14px;
+	
+	padding-top: 50px;
+	
+}
+.text4{
+	color: black;
+font-size: 30px;
+
+
+}
+
+.group4{
+	justify-content: center;
+	padding-left: 185px;
+	padding-right: 110px;
+}
+/* group5 start */
+#image1{
+	background-image: url("C:/Users/priya/OneDrive/Desktop/boilerplate - Copy (2)/teacher-image1");
+}
+/* group5 end */
+.text5{
+	text-align: justify;
+	color: #333333;
+	font-size: 36px;
+	font-family: sans-serif;
+	word-spacing: 5px;
+}
+
+.text6{
+	text-align: left;
+	color: #333333;
+	font-size: 18px;
+	font-family: sans-serif;
+}
+
+.text7{
+	text-align: justify;
+	color: #686868;
+	font-size: 16px;
+	font-family: sans-serif;
+}
+
+.image1{
+	background-image: url("C:/Users/priya/OneDrive/Desktop/boilerplate - Copy (2)/teacher-image1.png");
+}
+
+#img-col{
+
+	justify-content: space-evenly;
+}
+
+.cont{
+	color: #686868;
+	letter-spacing: 0.24rem;
+	font-size: 1rem;
+	font-family: sans-serif;
+}
+
+.form-web{
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background-color: #f6f6f6;
+}
+input[type=text],input[type=tel],input[type=email]{
+	border: solid 1px transparent;
+	border-bottom: solid 1px grey;
+	background-color: #f6f6f6;
+}
+
+.para-in-form{
+	color: #212121;
+	font-family: sans-serif;
+	font-size: 2.3rem;
+	letter-spacing: 0.20rem;
+}
+
+#send-but{
+	border: none;
+	background-color: #3db166;
+	color: white;
+	padding: 15px 35px;
+}
+
+#content-above-footer{
+	background-color: #212121;
+	color: white;
+	font-family: sans-serif;
+	font-size: 14px;
+	padding: 20rem 0rem 0rem 0rem ;
+}
+
+
+
+
+#col-footer{
+	background-color: black;
+	color: white;
+	font-size: medium;
+	font-family: sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+
+
+/* foot panel end */
+
+
+
+#para-above-footer{
+	position: relative;
+	top: 3rem;
+	text-align: justify;
+	font-size: 1.12rem;
+}
+
+
+
+
+#foot-panel2{
+	padding-top: 10rem;
+	padding-bottom: 30rem;
+    background-color: #212121;
+    color: white;
+    height: 500px;
+   
+    justify-content: space-evenly;
+}
+
+.testimonial{
+	color: #686868;
+	font-family: sans-serif;
+	font-size: small;
+	letter-spacing: 0.21rem;
+	text-align: center;
+}
+.students-say-about-us{
+	color: #212121;
+	font-family: sans-serif;
+	font-size: 2rem;
+	word-spacing: 0.6rem;
+	letter-spacing: 0.25rem;
+	text-align: center;
+}
+#image{
+	background-color: #f6f6f6;
+	padding: 30px;
+	
+}
+
+#video{
+	background-color: #f6f6f6;
+	padding: 30px;
+}
+
+
+.SERVICES-WE-PROVIDE{
+	color: #686868;
+	letter-spacing: 0.24rem;
+	word-spacing: 0.6rem;
+	font-size: 0.85rem;
+
+}
+.Facilities-and-Units{
+	color: #333333;
+	font-size: 2rem;
+	letter-spacing: 0.14rem;
+	word-spacing: 0.6rem;
+
+}
+
+.scrollthrough{
+	background-image: url('../porter-raab-Ucr4Yp-t364-unsplash3.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.colbgimg1{
+	background-image: url('../mikael-kristenson-3aVlWP-7bg8-unsplash.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 35px;
+}
+
+.colbgimg2{
+	background-image: url('../college-1462989841.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 35px;
+}
+
+.colbgimg3{
+	background-image: url('../teacher-image1.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.colbgimg4{
+	background-image: url('../teacher-image4.png');
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.paddedimage1{
+	overflow: hidden;
+}
+.colbgimg5{
+	background-position: center;
+	background-repeat: no-repeat;
+	transition: ease-in-out;
+	transition-duration: 1s;
+}
+
+.colbgimg5:hover{
+	transform: scale(1.07);
+}
+.colbgimg6{
+	background-position: center;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	transition: ease-in-out;
+	transition-duration: 1s;
+}
+
+.colbgimg6:hover{
+	transform: scale(1.07);
+}
+
+.colbgimg7{
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	transition: ease-in-out;
+	transition-duration: 1s;
+}
+
+.colbgimg7:hover{
+	transform: scale(1.07);
+}
+
+
+
+.paddedimage{
+	margin: 60px 0 60px 0;
+	background-color: #f6f6f6;
+}
+
+
+.headtext{
+	color: white;
+	font-family: sans-serif;
+	font-weight: 450;
+	font-size: 2rem;
+	padding-bottom: 2rem;
+}
+.headtext1{
+	max-width: 90%;
+	margin: auto;
+	color: white;
+	font-family: sans-serif;
+	font-weight: 250;
+	font-size: 1.8rem;
+	text-align: center;
+	padding-top: 20px;
+}
+.who-are-we{
+	color: white;
+	font-family: sans-serif;
+	letter-spacing: 0.30rem;
+	font-weight: 200;
+	padding-top: 5rem;
+}
+.but-image{
+	padding-bottom: 6rem;
+}
+
+.bodytext1{
+color: white;
+font-size: large;
+font-family: sans-serif;
+text-align: justify;
+padding: 25px;
+}
+
+.read-our-latest-news{
+		text-align: justify;
+	}
+
+.stay-updated{
+		color: #686868;
+	letter-spacing: 0.24rem;
+	font-size: 0.85rem;
+	font-family: sans-serif;
+	}
+	.stay-updated1{
+		color: #686868;
+	letter-spacing: 0.24rem;
+	font-size: 0.85rem;
+	font-family: sans-serif;
+	margin-top: 37px;
+	
+	}
+.read-news{
+	color: #333333;
+	letter-spacing: 0.24rem;
+	font-size: 1.9rem;
+	font-family: sans-serif;
+	
+}
+.read-news1{
+	color: #333333;
+	letter-spacing: 0.24rem;
+	font-size: 1.9rem;
+	font-family: sans-serif;
+	
+}
+#read-para{
+	color: #3db166;
+	font-family: sans-serif;
+	font-size: 1.6rem;
+	
+}
+
+#read-para2{
+	color: #3c3c3c;
+	font-family: sans-serif;
+}
+
+.darkbg{
+	background-color: rgba(0, 0, 0, 0.4);
+}
